@@ -9,66 +9,38 @@
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/infosec/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>01.相關法規</title>
-      <link>http://localhost:1313/infosec/1/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/1/</guid>
-      <description>資通安全法規 台灣 資通安全管理法 子法 資通安全管理法施行細則 資通安全責任等級分級辦法 資通安全事件通報及應變辦法 資安維護計畫 資通安全責任等級分級辦</description>
-    </item>
-    <item>
-      <title>02.ISO 27000系列</title>
-      <link>http://localhost:1313/infosec/2/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/2/</guid>
-      <description>ISO 27000系列 ISO 27000系列 - 27000 資訊安全管理系統 - 綜述及詞彙，主要在簡介 ISMS 以及針對各種詞彙進行定義。 - 27001 資訊安全管理系統 - 要求，最基礎的</description>
-    </item>
-    <item>
-      <title>03.資安風險</title>
+      <title>03.系統安全規範</title>
       <link>http://localhost:1313/infosec/3/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/infosec/3/</guid>
       <description></description>
     </item>
     <item>
-      <title>04.攻擊&amp;防禦機制</title>
+      <title>04.網路安全處理</title>
       <link>http://localhost:1313/infosec/4/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/infosec/4/</guid>
       <description></description>
     </item>
     <item>
-      <title>05.風險處理</title>
+      <title>05.安全軟體開發</title>
       <link>http://localhost:1313/infosec/5/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/infosec/5/</guid>
       <description></description>
     </item>
     <item>
-      <title>06.資安測試</title>
+      <title>06.營運持續管理</title>
       <link>http://localhost:1313/infosec/6/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/infosec/6/</guid>
       <description></description>
     </item>
     <item>
-      <title>07.安全軟體開發</title>
+      <title>07.作業安全管理</title>
       <link>http://localhost:1313/infosec/7/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/infosec/7/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>08.相關證照</title>
-      <link>http://localhost:1313/infosec/8/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>09.參考資料</title>
-      <link>http://localhost:1313/infosec/9/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/9/</guid>
       <description></description>
     </item>
   </channel>
