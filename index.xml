@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home title on Star&#39;s 資訊筆記</title>
+    <title>Home on Star&#39;s 資訊筆記</title>
     <link>https://jiapie.github.io/</link>
-    <description>Recent content in Home title on Star&#39;s 資訊筆記</description>
+    <description>Recent content in Home on Star&#39;s 資訊筆記</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
@@ -107,88 +107,67 @@
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     <item>
-      <title>03.系統安全規範</title>
-      <link>https://jiapie.github.io/infosec/3/</link>
+      <title>安全架構</title>
+      <link>https://jiapie.github.io/infosec/manage/1/3/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/3/</guid>
+      <guid>https://jiapie.github.io/infosec/manage/1/3/</guid>
       <description></description>
     </item>
     <item>
-      <title>04.網路安全處理</title>
-      <link>https://jiapie.github.io/infosec/4/</link>
+      <title>安全維運</title>
+      <link>https://jiapie.github.io/infosec/tech/2/1/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/4/</guid>
+      <guid>https://jiapie.github.io/infosec/tech/2/1/</guid>
       <description></description>
     </item>
     <item>
-      <title>05.安全軟體開發</title>
-      <link>https://jiapie.github.io/infosec/5/</link>
+      <title>弱點、威脅分類與攻擊手法</title>
+      <link>https://jiapie.github.io/infosec/tech/1/1/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/5/</guid>
+      <guid>https://jiapie.github.io/infosec/tech/1/1/</guid>
       <description></description>
     </item>
     <item>
-      <title>06.營運持續管理</title>
-      <link>https://jiapie.github.io/infosec/6/</link>
+      <title>滲透測試、源碼測試、資安健診</title>
+      <link>https://jiapie.github.io/infosec/tech/2/2/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/6/</guid>
+      <guid>https://jiapie.github.io/infosec/tech/2/2/</guid>
       <description></description>
     </item>
     <item>
-      <title>07.作業安全管理</title>
-      <link>https://jiapie.github.io/infosec/7/</link>
+      <title>相關法規</title>
+      <link>https://jiapie.github.io/infosec/manage/1/1/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/7/</guid>
+      <guid>https://jiapie.github.io/infosec/manage/1/1/</guid>
       <description></description>
     </item>
     <item>
-      <title>ISO/IEC 27001</title>
-      <link>https://jiapie.github.io/infosec/iso_27000/2/</link>
+      <title>管理實務：存取控制、縱深防禦、職務區隔 (SOD)</title>
+      <link>https://jiapie.github.io/infosec/manage/1/2/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/iso_27000/2/</guid>
-      <description>ISO 27000系列 ISO 27000系列 - 27000 資訊安全管理系統 - 綜述及詞彙，主要在簡介 ISMS 以及針對各種詞彙進行定義。 - 27001 資訊安全管理系統 - 要求，最基礎的</description>
-    </item>
-    <item>
-      <title>風險管理</title>
-      <link>https://jiapie.github.io/infosec/iso_27000/3/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/iso_27000/3/</guid>
+      <guid>https://jiapie.github.io/infosec/manage/1/2/</guid>
       <description></description>
     </item>
     <item>
-      <title>個人資料保護法</title>
-      <link>https://jiapie.github.io/infosec/law/2/</link>
+      <title>防護與應變實務</title>
+      <link>https://jiapie.github.io/infosec/tech/1/2/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/law/2/</guid>
-      <description>資通安全法規 台灣 資通安全管理法 子法 資通安全管理法施行細則 資通安全責任等級分級辦法 資通安全事件通報及應變辦法 資安維護計畫 資通安全責任等級分級辦</description>
-    </item>
-    <item>
-      <title>智慧財產權</title>
-      <link>https://jiapie.github.io/infosec/law/3/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/law/3/</guid>
-      <description>資通安全法規 台灣 資通安全管理法 子法 資通安全管理法施行細則 資通安全責任等級分級辦法 資通安全事件通報及應變辦法 資安維護計畫 資通安全責任等級分級辦</description>
-    </item>
-    <item>
-      <title>資訊安全管理</title>
-      <link>https://jiapie.github.io/infosec/iso_27000/1/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/iso_27000/1/</guid>
+      <guid>https://jiapie.github.io/infosec/tech/1/2/</guid>
       <description></description>
     </item>
     <item>
-      <title>資通安全管理法</title>
-      <link>https://jiapie.github.io/infosec/law/1/</link>
+      <title>風險分析與評估</title>
+      <link>https://jiapie.github.io/infosec/manage/2/1/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/law/1/</guid>
-      <description>資通安全法規 台灣 資通安全管理法 子法 資通安全管理法施行細則 資通安全責任等級分級辦法 資通安全事件通報及應變辦法 資安維護計畫 資通安全責任等級分級辦</description>
+      <guid>https://jiapie.github.io/infosec/manage/2/1/</guid>
+      <description></description>
     </item>
     <item>
-      <title>營業秘密法</title>
-      <link>https://jiapie.github.io/infosec/law/4/</link>
+      <title>風險處理實務</title>
+      <link>https://jiapie.github.io/infosec/manage/2/2/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/law/4/</guid>
-      <description>資通安全法規 台灣 資通安全管理法 子法 資通安全管理法施行細則 資通安全責任等級分級辦法 資通安全事件通報及應變辦法 資安維護計畫 資通安全責任等級分級辦</description>
+      <guid>https://jiapie.github.io/infosec/manage/2/2/</guid>
+      <description></description>
     </item>
     <item>
       <title>Search Shortcode</title>
@@ -280,6 +259,13 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       <guid>https://jiapie.github.io/chapter3/4/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    <item>
+      <title>更新記錄</title>
+      <link>https://jiapie.github.io/infosec/3/</link>
+      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/3/</guid>
+      <description>&amp;nbsp;HISTORY ◎ 2024/07/09, 建立網站雛型。</description>
     </item>
     <item>
       <title>About Hugo</title>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>作業安全實務 - Star&#39;s 資訊筆記</title>
+<meta name="description" content="亂七八糟的資料整理">
+<meta name="generator" content="Hugo 0.128.0">
+<link href="https://jiapie.github.io//index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://jiapie.github.io/infosec/tech/2/">
+<link rel="stylesheet" href="https://jiapie.github.io/css/theme.min.css">
+<link rel="stylesheet" href="https://jiapie.github.io/css/chroma.min.css">
+<script defer src="https://jiapie.github.io//js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="https://jiapie.github.io/js/bundle.js"></script><style>
+:root {--custom-background-color: #0B346E;}
+</style>
+<meta property="og:url" content="https://jiapie.github.io/infosec/tech/2/">
+  <meta property="og:site_name" content="Star&#39;s 資訊筆記">
+  <meta property="og:title" content="作業安全實務">
+  <meta property="og:description" content="亂七八糟的資料整理">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jiapie.github.io/images/og-image.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jiapie.github.io/images/og-image.png">
+  <meta name="twitter:title" content="作業安全實務">
+  <meta name="twitter:description" content="亂七八糟的資料整理">
+
+  <meta itemprop="name" content="作業安全實務">
+  <meta itemprop="description" content="亂七八糟的資料整理">
+  <meta itemprop="datePublished" content="2024-07-09T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-07-09T00:00:00+00:00">
+  <meta itemprop="image" content="https://jiapie.github.io/images/og-image.png"></head>
+<body><div class="container"><header>
+<h1>Star&#39;s 資訊筆記</h1><span class="version">Version 1.0.0</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">亂七八糟的資料整理</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="Home" class=""><a href="/"><i class='fa fa-heart'></i>&nbsp;Home</a></li>
+<li class="active "><a href="/infosec/">資訊安全</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>作業安全實務</h1><div class="edit-meta">
+Last updated on 9 Jul 2024
+
+
+<br>
+Published on 9 Jul 2024
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/InfoSec/Tech/2/_index.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://jiapie.github.io/infosec/tech/" title="資訊安全-技術"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - 資訊安全-技術</a>
+<a class="nav nav-next" href="https://jiapie.github.io/infosec/tech/2/1/" title="安全維運">Next - 安全維運 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://jiapie.github.io/">Home</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="parent"><a href="https://jiapie.github.io/infosec/">資訊安全</a>
+  
+<ul class="sub-menu">
+
+<li class="parent"><a href="https://jiapie.github.io/infosec/tech/">資訊安全-技術</a>
+  
+<ul class="sub-menu">
+
+<li class=" active"><a href="https://jiapie.github.io/infosec/tech/2/">作業安全實務</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://jiapie.github.io/infosec/tech/2/1/">安全維運</a></li>
+<li class=""><a href="https://jiapie.github.io/infosec/tech/2/2/">滲透測試、源碼測試、資安健診</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="https://jiapie.github.io/infosec/tech/1/">弱點、攻擊與防護實務</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://jiapie.github.io/infosec/tech/1/1/">弱點、威脅分類與攻擊手法</a></li>
+<li class=""><a href="https://jiapie.github.io/infosec/tech/1/2/">防護與應變實務</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+
+<li class=""><a href="https://jiapie.github.io/infosec/manage/">資訊安全-管理</a>
+  
+<ul class="sub-menu">
+
+<li class=""><a href="https://jiapie.github.io/infosec/manage/1/">資訊安全管理系統</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://jiapie.github.io/infosec/manage/1/3/">安全架構</a></li>
+<li class=""><a href="https://jiapie.github.io/infosec/manage/1/1/">相關法規</a></li>
+<li class=""><a href="https://jiapie.github.io/infosec/manage/1/2/">管理實務：存取控制、縱深防禦、職務區隔 (SOD)</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="https://jiapie.github.io/infosec/manage/2/">風險管理實務</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://jiapie.github.io/infosec/manage/2/1/">風險分析與評估</a></li>
+<li class=""><a href="https://jiapie.github.io/infosec/manage/2/2/">風險處理實務</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+<li class=""><a href="https://jiapie.github.io/infosec/3/">更新記錄</a></li>
+</ul>
+  
+</li>
+
+
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

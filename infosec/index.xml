@@ -2,46 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>資訊安全 on Star&#39;s 資訊筆記</title>
-    <link>http://localhost:1313/infosec/</link>
+    <link>https://jiapie.github.io/infosec/</link>
     <description>Recent content in 資訊安全 on Star&#39;s 資訊筆記</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2017 14:00:45 +0000</lastBuildDate>
+    <atom:link href="https://jiapie.github.io/infosec/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>03.系統安全規範</title>
-      <link>http://localhost:1313/infosec/3/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>04.網路安全處理</title>
-      <link>http://localhost:1313/infosec/4/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>05.安全軟體開發</title>
-      <link>http://localhost:1313/infosec/5/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>06.營運持續管理</title>
-      <link>http://localhost:1313/infosec/6/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>07.作業安全管理</title>
-      <link>http://localhost:1313/infosec/7/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infosec/7/</guid>
-      <description></description>
+      <title>更新記錄</title>
+      <link>https://jiapie.github.io/infosec/3/</link>
+      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/3/</guid>
+      <description>&amp;nbsp;HISTORY ◎ 2024/07/09, 建立網站雛型。</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>資訊安全管理系統 on Star&#39;s 資訊筆記</title>
+    <link>https://jiapie.github.io/infosec/manage/1/</link>
+    <description>Recent content in 資訊安全管理系統 on Star&#39;s 資訊筆記</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jiapie.github.io/infosec/manage/1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安全架構</title>
+      <link>https://jiapie.github.io/infosec/manage/1/3/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/manage/1/3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>相關法規</title>
+      <link>https://jiapie.github.io/infosec/manage/1/1/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/manage/1/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>管理實務：存取控制、縱深防禦、職務區隔 (SOD)</title>
+      <link>https://jiapie.github.io/infosec/manage/1/2/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/manage/1/2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

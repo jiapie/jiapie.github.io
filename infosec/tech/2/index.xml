@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作業安全實務 on Star&#39;s 資訊筆記</title>
+    <link>https://jiapie.github.io/infosec/tech/2/</link>
+    <description>Recent content in 作業安全實務 on Star&#39;s 資訊筆記</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jiapie.github.io/infosec/tech/2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安全維運</title>
+      <link>https://jiapie.github.io/infosec/tech/2/1/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/tech/2/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>滲透測試、源碼測試、資安健診</title>
+      <link>https://jiapie.github.io/infosec/tech/2/2/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/tech/2/2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

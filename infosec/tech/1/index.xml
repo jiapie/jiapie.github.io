@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>弱點、攻擊與防護實務 on Star&#39;s 資訊筆記</title>
+    <link>https://jiapie.github.io/infosec/tech/1/</link>
+    <description>Recent content in 弱點、攻擊與防護實務 on Star&#39;s 資訊筆記</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jiapie.github.io/infosec/tech/1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>弱點、威脅分類與攻擊手法</title>
+      <link>https://jiapie.github.io/infosec/tech/1/1/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/tech/1/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>防護與應變實務</title>
+      <link>https://jiapie.github.io/infosec/tech/1/2/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jiapie.github.io/infosec/tech/1/2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

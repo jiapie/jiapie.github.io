@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>02.ISO 27000系列 - Star&#39;s 資訊筆記</title>
+<meta name="description" content="亂七八糟的資料整理">
+<meta name="generator" content="Hugo 0.128.0">
+<link href="http://localhost:1313//index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/2/">
+<link rel="stylesheet" href="http://localhost:1313/css/theme.min.css">
+<link rel="stylesheet" href="http://localhost:1313/css/chroma.min.css">
+<script defer src="http://localhost:1313//js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="http://localhost:1313/js/bundle.js"></script><style>
+:root {--custom-background-color: #0B346E;}
+</style>
+<meta property="og:url" content="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/2/">
+  <meta property="og:site_name" content="Star&#39;s 資訊筆記">
+  <meta property="og:title" content="02.ISO 27000系列">
+  <meta property="og:description" content="ISO 27000系列 ISO 27000系列 - 27000 資訊安全管理系統 - 綜述及詞彙，主要在簡介 ISMS 以及針對各種詞彙進行定義。 - 27001 資訊安全管理系統 - 要求，最基礎的">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="infosec拷貝">
+    <meta property="article:published_time" content="2024-07-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-02T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/images/og-image.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/og-image.png">
+  <meta name="twitter:title" content="02.ISO 27000系列">
+  <meta name="twitter:description" content="ISO 27000系列 ISO 27000系列 - 27000 資訊安全管理系統 - 綜述及詞彙，主要在簡介 ISMS 以及針對各種詞彙進行定義。 - 27001 資訊安全管理系統 - 要求，最基礎的">
+
+  <meta itemprop="name" content="02.ISO 27000系列">
+  <meta itemprop="description" content="ISO 27000系列 ISO 27000系列 - 27000 資訊安全管理系統 - 綜述及詞彙，主要在簡介 ISMS 以及針對各種詞彙進行定義。 - 27001 資訊安全管理系統 - 要求，最基礎的">
+  <meta itemprop="datePublished" content="2024-07-02T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-07-02T00:00:00+00:00">
+  <meta itemprop="wordCount" content="871">
+  <meta itemprop="image" content="http://localhost:1313/images/og-image.png"></head>
+<body>
+
+<div class="container"><header>
+<h1>Star&#39;s 資訊筆記</h1><span class="version">Version 1.0.0</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">亂七八糟的資料整理</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/"><i class='fa fa-heart'></i>&nbsp;HOME</a></li>
+<li class=""><a href="/infosec/1/">01.相關法規</a></li><li class="parent "><a href="">01.資訊安全法規<i class="fas fa-angle-right"></i></a>
+<ul class="sub-menu">
+<li class="child "><a href="/infosec/law/2/">個人資料保護法</a></li>
+<li class="child "><a href="/infosec/law/3/">智慧財產權</a></li>
+<li class="child "><a href="/infosec/law/4/">營業秘密法</a></li>
+<li class="child "><a href="/infosec/law/1/">資通安全管理法</a></li>
+</ul>
+</li>
+<li class=""><a href="/infosec/2/">02.ISO 27000系列</a></li><li class="parent "><a href="">02.資訊安全管理<i class="fas fa-angle-right"></i></a>
+<ul class="sub-menu">
+<li class="child "><a href="/infosec/iso_27000/2/">ISO/IEC 27001</a></li>
+<li class="child "><a href="/infosec/iso_27000/1/">資訊安全管理</a></li>
+<li class="child "><a href="/infosec/iso_27000/3/">風險管理</a></li>
+</ul>
+</li>
+<li class=""><a href="/infosec/3/">03.系統安全規範</a></li>
+<li class=""><a href="/infosec/4/">04.網路安全處理</a></li>
+<li class=""><a href="/infosec/5/">05.安全軟體開發</a></li>
+<li class=""><a href="/infosec/6/">06.營運持續管理</a></li>
+<li class=""><a href="/infosec/7/">07.作業安全管理</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>02.ISO 27000系列</h1>
+<figure><img src="../../images/ISO27000.png"><figcaption>
+      <h4>ISO 27000系列</h4>
+    </figcaption>
+</figure>
+
+<h3 id="iso-27000系列">ISO 27000系列</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27000 資訊安全管理系統 - 綜述及詞彙，主要在簡介 ISMS 以及針對各種詞彙進行定義。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27001	資訊安全管理系統 - 要求，最基礎的要求。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27002	資訊安全、網路安全和隱私保護-資訊安全控制。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27003	資訊安全管理系統實做指引。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27004	資訊安全管理系統 - 測評。（評估系統的效果）
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27005	資訊安全風險管理。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27006	資訊安全認證規範。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27007	資訊安全管理系統 - 指南，用於管理系統審核。（稽核） 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27008 資訊安全管理系統 - 量度。（檢視系統的效能）
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27011：以 27002 為基礎訂定的電信業者 ISMS 管理指引。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27017：以 27002 為基礎訂定的雲端服務資安控制項準則。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27018 雲端個人資料保護管理。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27019 能源公共事業產業資訊安全管理。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27033-1～6：網路安全。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27034-1～7：應用程式安全。（軟體開發安全） 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27035-1～4：資安事件管理。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27037：數位鑑識證據識別、蒐集、獲得、儲存的標準。 (鑑識)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27040：儲存空間安全。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27043：事件調查。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27701：個人資料管理系統，第一版為 2019 年發布，大致上參考了 BS 10012、GDPR 的規範進行訂定。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> 27799：針對醫療業實施 27002 的資訊安全管理。
+</span></span></code></pre></div><h3 id="iso-27000分類">ISO 27000分類</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> 資訊安全管理系統：ISO 27001、治理ISO 27014、字彙ISO 27000
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> 控制措施：通用ISO 27702、延伸 (ISO 27011、ISO 27017、ISO 27018、ISO 27019、ISO 27701、ISO 27799)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">3.</span> 風險管理：ISO 27005 (參考ISO 31000)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">4.</span> 量測：ISO 27004
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">5.</span> 驗證稽核：ISO 27006、ISO 27007、ISO 27008
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">6.</span> 控制措施指引：
+</span></span><span style="display:flex;"><span>  A.17 (ISO 27301)
+</span></span><span style="display:flex;"><span>  A.13.1 (ISO 27033)
+</span></span><span style="display:flex;"><span>  A.16 (ISO 27035)
+</span></span><span style="display:flex;"><span>  A.15 (ISO 27036)
+</span></span><span style="display:flex;"><span>  A.12.4 (ISO 27039)。
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">7.</span> 導入及整合：ISO 27003、ISO 27013 (整合ISO 20000-1)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">8.</span> 控制措施參考：ISO 27033、ISO 27034、ISO 27035、ISO 27036、ISO 27039、ISO 27040、ISO 29100、 ISO 27007
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">9.</span> 調查證據：ISO 27037、ISO 27038、ISO 27040、ISO 27041、ISO 27042、ISO 27043、ISO 27044、ISO 27050。
+</span></span></code></pre></div><h3 id="參考資料">參考資料</h3>
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/articles/10283899" title="ISO 27001 資訊安全管理系統 【解析】(二)">ISO 27001 資訊安全管理系統 【解析】(二)</a></li>
+</ul>
+<div class="edit-meta">
+Last updated on 2 Jul 2024
+
+
+<br>
+Published on 2 Jul 2024
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/InfoSec%e6%8b%b7%e8%b2%9d/2.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/1/" title="01.相關法規"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - 01.相關法規</a>
+<a class="nav nav-next" href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/3/" title="03.系統安全規範">Next - 03.系統安全規範 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="http://localhost:1313/">Home</a></li>
+
+
+
+<li class=""><a href="http://localhost:1313/sample/">Sample Document</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/sample/markdown-syntax/">Markdown Syntax</a></li>
+<li class=""><a href="http://localhost:1313/sample/built-in-shortcodes/">Built-in Shortcodes</a></li>
+<li class=""><a href="http://localhost:1313/sample/custom-shortcodes/">Custom Shortcodes</a></li>
+<li class=""><a href="http://localhost:1313/sample/table-of-contents/">Table of Contents</a></li>
+<li class=""><a href="http://localhost:1313/sample/search-shortcode/">Search Shortcode</a></li>
+</ul>
+  
+</li>
+
+
+
+
+
+
+
+
+
+<li class=""><a href="http://localhost:1313/infosec/">資訊安全</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/infosec/1/">01.相關法規</a></li>
+<li class=""><a href="http://localhost:1313/infosec/2/">02.ISO 27000系列</a></li>
+<li class=""><a href="http://localhost:1313/infosec/3/">03.系統安全規範</a></li>
+<li class=""><a href="http://localhost:1313/infosec/4/">04.網路安全處理</a></li>
+<li class=""><a href="http://localhost:1313/infosec/5/">05.安全軟體開發</a></li>
+<li class=""><a href="http://localhost:1313/infosec/6/">06.營運持續管理</a></li>
+<li class=""><a href="http://localhost:1313/infosec/7/">07.作業安全管理</a></li>
+
+<li class=""><a href="http://localhost:1313/infosec/iso_27000/">ISO 27000系列</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/infosec/iso_27000/2/">ISO/IEC 27001</a></li>
+<li class=""><a href="http://localhost:1313/infosec/iso_27000/3/">風險管理</a></li>
+<li class=""><a href="http://localhost:1313/infosec/iso_27000/1/">資訊安全管理</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="http://localhost:1313/infosec/law/">相關法規</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/infosec/law/2/">個人資料保護法</a></li>
+<li class=""><a href="http://localhost:1313/infosec/law/3/">智慧財產權</a></li>
+<li class=""><a href="http://localhost:1313/infosec/law/1/">資通安全管理法</a></li>
+<li class=""><a href="http://localhost:1313/infosec/law/4/">營業秘密法</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+
+<li class="parent"><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/">資訊安全</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/1/">01.相關法規</a></li>
+<li class="active"><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/2/">02.ISO 27000系列</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/3/">03.系統安全規範</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/4/">04.網路安全處理</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/5/">05.安全軟體開發</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/6/">06.營運持續管理</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/7/">07.作業安全管理</a></li>
+
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/iso_27000/">ISO 27000系列</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/iso_27000/2/">ISO/IEC 27001</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/iso_27000/3/">風險管理</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/iso_27000/1/">資訊安全管理</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/law/">相關法規</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/law/2/">個人資料保護法</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/law/3/">智慧財產權</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/law/1/">資通安全管理法</a></li>
+<li class=""><a href="http://localhost:1313/infosec%E6%8B%B7%E8%B2%9D/law/4/">營業秘密法</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+
+<li class=""><a href="http://localhost:1313/post/">Posts</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://localhost:1313/post/creating-a-new-theme/">Creating a New Theme</a></li>
+<li class=""><a href="http://localhost:1313/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
+<li class=""><a href="http://localhost:1313/post/goisforlovers/">(Hu)go Template Primer</a></li>
+<li class=""><a href="http://localhost:1313/post/hugoisforlovers/">Getting Started with Hugo</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

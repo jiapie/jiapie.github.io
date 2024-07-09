@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ISO 27000系列 on Star&#39;s 資訊筆記</title>
-    <link>https://jiapie.github.io/infosec/iso_27000/</link>
+    <link>http://localhost:1313/infosec/iso_27000/</link>
     <description>Recent content in ISO 27000系列 on Star&#39;s 資訊筆記</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jiapie.github.io/infosec/iso_27000/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/infosec/iso_27000/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ISO/IEC 27001</title>
-      <link>https://jiapie.github.io/infosec/iso_27000/2/</link>
+      <link>http://localhost:1313/infosec/iso_27000/2/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/iso_27000/2/</guid>
+      <guid>http://localhost:1313/infosec/iso_27000/2/</guid>
       <description>ISO 27000系列 ISO 27000系列 - 27000 資訊安全管理系統 - 綜述及詞彙，主要在簡介 ISMS 以及針對各種詞彙進行定義。 - 27001 資訊安全管理系統 - 要求，最基礎的</description>
     </item>
     <item>
       <title>風險管理</title>
-      <link>https://jiapie.github.io/infosec/iso_27000/3/</link>
+      <link>http://localhost:1313/infosec/iso_27000/3/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/iso_27000/3/</guid>
+      <guid>http://localhost:1313/infosec/iso_27000/3/</guid>
       <description></description>
     </item>
     <item>
       <title>資訊安全管理</title>
-      <link>https://jiapie.github.io/infosec/iso_27000/1/</link>
+      <link>http://localhost:1313/infosec/iso_27000/1/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/iso_27000/1/</guid>
+      <guid>http://localhost:1313/infosec/iso_27000/1/</guid>
       <description></description>
     </item>
   </channel>
