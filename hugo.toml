@@ -1,0 +1,65 @@
+baseURL = "https://jiapie.github.io/"
+title = "Star's Notebook"
+theme = "hugo-book"
+#languageCode = "zh-tw"
+locale = "zh-tw"
+defaultContentLanguage = 'zh-tw'
+
+# ==========================================
+# 1. 全域主題參數設定 (所有的 Book... 設定都必須在這裡)
+# ==========================================
+[params]
+  # Color theme: 'light', 'dark' or 'auto'
+  BookTheme = "light"
+  
+  # Show table of contents on right side of pages
+  BookToC = true
+  
+  # Path to favicon file relative to 'static' directory
+  BookFavicon = 'favicon.png'
+
+  # Path to logo image file relative to 'static' directory
+  BookLogo = 'logo.png'
+
+  # Root section to render as sidebar menu
+  BookSection = 'docs'
+  
+  # Enable full-text search with fuse.js
+  BookSearch = true
+
+  # Enable comments template on pages
+  BookComments = true
+
+  # Enable portable markdown links (resolve relative .md links)
+  BookPortableLinks = false
+
+  # Enable service worker for offline caching
+  BookServiceWorker = false
+
+  # Only show languages that have translations for current page
+  BookTranslatedOnly = false
+
+  # 控制側邊選單的折疊行為
+  BookMenuBundle = true
+
+
+# ==========================================
+# 2. 分類法設定
+# ==========================================
+[taxonomies]
+  tag = 'tags'
+
+# ==========================================
+# 3. 選單設定 (必須放在常規 [params] 的下方)
+# ==========================================
+[[menu.before]]
+  name = 'Tags'
+  url = '/tags/'
+  weight = 30
+  [menu.before.params]
+    bookIcon = 'tag'       # Icon name to display next to the item
+
+[[menu.after]]
+  name = 'Hugo Book'
+  url  = 'https://book.alxs.dev/'
+  weight = 1

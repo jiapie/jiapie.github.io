@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="markdown book-post">
+  <h1>Tags</h1>
+  <hr>
+  <ul>
+    {{ range .Data.Terms.Alphabetical }}
+    <li>
+      <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}

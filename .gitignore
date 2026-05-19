@@ -1,0 +1,10 @@
+# Hugo 預設生成的動態資料夾（不需要上傳）
+public/
+resources/
+.hugo_build.lock
+
+# 系統與編輯器暫存
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
