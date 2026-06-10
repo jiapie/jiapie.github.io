@@ -1,7 +1,7 @@
 ---
 title: "iPAS AI 應用規劃師"
 type: "docs"
-weight: 2
+weight: 3
 bookCollapseSection: true
 tags: ["Tech", "AI", "iPAS"]
 ---
